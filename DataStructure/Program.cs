@@ -25,12 +25,20 @@ namespace DataStructure
             //int i = TheifHouse.TheifHouseMaximum(arr, 0);
             //Console.WriteLine(i);
 
-            //ConvertOneStringToAnother
+            ////ConvertOneStringToAnother
 
-            string str1 = "CATCH";
-            string str2 = "MATCH";
+            //string str1 = "CATCH";
+            //string str2 = "MATCH";
 
-            int i = ConvertOneStringToAnother.ConvertOneStringToAnotherMethod(str1, 0, str2, 0);
+            //int i = ConvertOneStringToAnother.ConvertOneStringToAnotherMethod(str1, 0, str2, 0);
+
+            //ZeroNapsack
+
+            int[] profit = { 31, 26, 72, 17 };
+            int[] weight = { 3, 1, 5, 2 };
+            int i = ZeroNapsack.ZeroNapsackMethod(weight, 0, profit, 7);
+
+            Console.WriteLine(i);
 
             Console.WriteLine("Hello World!");
 
