@@ -19,11 +19,18 @@ namespace DataStructure
             //int i = NumberFactor.TotalNumberFactor(5);
             //Console.WriteLine(i);
 
-            //House Theif
-            int[] arr = { 6, 7, 1, 30, 8, 2, 4 };
+            ////House Theif
+            //int[] arr = { 6, 7, 1, 30, 8, 2, 4 };
 
-            int i = TheifHouse.TheifHouseMaximum(arr, 0);
-            Console.WriteLine(i);
+            //int i = TheifHouse.TheifHouseMaximum(arr, 0);
+            //Console.WriteLine(i);
+
+            //ConvertOneStringToAnother
+
+            string str1 = "CATCH";
+            string str2 = "MATCH";
+
+            int i = ConvertOneStringToAnother.ConvertOneStringToAnotherMethod(str1, 0, str2, 0);
 
             Console.WriteLine("Hello World!");
 
