@@ -7,6 +7,8 @@ namespace DataStructure.DivideAndConqure
     public static class NumberFactor
     {
         // we have number 1 ,3 ,4 and we have to find the total number of way to make n
+
+            //n=5 then {1,1,1,1,1} , {1,1,3} , {1,4} , {3,1,1} , {4,1}
         public static int TotalNumberFactor(int n)
         {
             if (n==0 || n == 1)
