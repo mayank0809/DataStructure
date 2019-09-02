@@ -36,8 +36,8 @@ namespace DataStructure.DivideAndConqure
             if (arr.Length < i || arr.Length == i)
                 return 0;
 
-            int count1 = arr[i] + TheifHouseMaximum(arr,i + 2);
-            int count2 = TheifHouseMaximum(arr, i + 1);
+            int count1 = arr[i] + TheifHouseMaximum(arr,i + 2);// if he take current arr[i] then he cannot take next so i+2
+            int count2 = TheifHouseMaximum(arr, i + 1);// If he ignore first then take next so i+1
 
             return Max(count1, count2);
         }
